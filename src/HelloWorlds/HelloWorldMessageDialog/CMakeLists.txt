@@ -3,7 +3,7 @@ project(HelloWorldMessageDialog)
 
 # Project
 
-find_package(wxWidgets 3.2 REQUIRED)
+find_package(wxWidgets 3.0 REQUIRED)
 include(${wxWidgets_USE_FILE})
 
 set(SOURCES README.md HelloWorldMessageDialog.cpp)
